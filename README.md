@@ -25,9 +25,9 @@ CVPR 2018 RE-ID Spotlight 一篇，这篇文章主要 contribution 有以下两�
 1. 提出了一个新的更大的数据集，更为细致：考虑到了视角，光照等更为细致的因素，具体参数可以直接看文章；
 2. 多个数据集间的差异，即 domain-gap，通过 GAN 来生成和模仿，类似文章：Camera Style Adaptation for Person Re-identification，个人认为创意是有的，可以作为 data augmentation 的一个方法，但实现难度上并没有很大。
 
-代码链接[4]
-数据集链接[5]
-笔记链接[6]
+[代码链接][4]
+[数据集链接][5]
+[笔记链接][6]
 
 
 ## [Disentangled Person Image Generation][7]
@@ -43,7 +43,7 @@ CVPR 2018 RE-ID Spotlight 一篇，这篇文章主要 contribution 有以下两�
 2. 在经过卷积运算后的 feature map 上，运用 mask 将前后景分离，背景的 feature map 也是直接 concat 进最后的 feature map 中；
 3. 核心是前景的处理上，用 7 个 ROI 进一步将前景解开，然后用公用的 encoder 生成前景的 feature map。
 
-笔记链接[8]
+[笔记链接][8]
 
 
 
