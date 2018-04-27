@@ -1,12 +1,11 @@
 # CVPR-2018-Reading
 
 [Unsupervised Person Image Synthesis in Arbitrary Poses][1]
-#Image Synthesis
 
+#Image Synthesis
 CVPR 2018 Spotlight 论文，ReID + GAN 换 pose。
 
 本文用了较多的篇幅讲 loss function，pose 的提取用的是 OpenPose 这个库。 
-
 其 loss 分为三部分： 
 
 1. Image Adversarial Loss：即传统 GAN 的 loss；
